@@ -26,6 +26,3 @@ jobs:
 #    - name: "compile"
 #      script:
 #        - docker run -t -v $(pwd):/var/builder/ -w /var/builder --entrypoint ./scripts/compile.sh $DOCKER_IMAGE
-
-notifications:
-  email: false
